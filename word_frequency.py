@@ -25,4 +25,4 @@ def word_frequency(raw_string):
     return sorted(dict_of_all_words.items(), key=lambda x :x[1], reverse=True)
 
 if __name__ == "__main__":
-    print(word_frequency("There is a light And it NEver goes out. FAST light BEAR! "))
+    print(word_frequency("There is a light And it Never goes out out. FAST light BEAR! "))
